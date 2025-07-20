@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 import air  # import your air.py script
 
 # You might want to provide the same file path here:
-FILE_PATH = "C:/Users/zahra/Downloads/AB_NYC_2019.csv"
+FILE_PATH = "AB_NYC_2019.csv"
 
 @pytest.fixture
 def cleaned_data():
