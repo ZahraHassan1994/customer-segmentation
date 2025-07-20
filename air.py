@@ -8,7 +8,7 @@ from sklearn.manifold import TSNE
 from sklearn.metrics import silhouette_score
 import plotly.express as px
 
-file_path = r"C:\Users\zahra\Downloads\AB_NYC_2019.csv"
+file_path = r"C:\Users\zahra\Downloads\airbab\AB_NYC_2019.csv"
 
 df= pd.read_csv(file_path)
 print(df.head())
